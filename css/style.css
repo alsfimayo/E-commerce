@@ -216,7 +216,8 @@ p{
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
-    
+    justify-content: space-between;
+    gap: 1.5rem;
 }
 .pro{
     width: 23%;
@@ -226,7 +227,7 @@ p{
     border-radius: 25px;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, .2);
     cursor: pointer;
-    margin: 1.5rem 1.5rem 0rem 0rem;
+    
     align-items: center;
 }
 
