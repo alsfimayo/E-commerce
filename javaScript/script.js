@@ -1,3 +1,4 @@
+/*index.html */
 const openNav=document.querySelector('#open');
 const nav=document.querySelector('.nav-list');
 const closeNav=document.querySelector('#close');
@@ -15,3 +16,14 @@ closeNav.addEventListener('click',()=>{
     openNav.style.display='flex';
     closeNav.style.display='none'
 })
+
+/*shop.html*/
+
+const Main=document.querySelector('.main-img');
+const Small=document.querySelectorAll('.small-img');
+Small.forEach((img) => {
+ img.addEventListener('click',()=>{
+     Main.src=img.src;
+ });
+ 
+});
