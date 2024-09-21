@@ -27,3 +27,7 @@ Small.forEach((img) => {
  });
  
 });
+const Btn=document.querySelector('.contact-btn');
+Btn.addEventListener('click',()=>{
+    alert('Congratulation')
+});
