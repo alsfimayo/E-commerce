@@ -27,7 +27,37 @@ Small.forEach((img) => {
  });
  
 });
-const Btn=document.querySelector('.contact-btn');
-Btn.addEventListener('click',()=>{
-    alert('Congratulation')
+
+// const Btn=document.querySelector('.contact-btn');
+// Btn.addEventListener('click',()=>{
+//     alert('Congratulation')
+// });
+
+
+
+
+/*blog.html*/
+const Incre=document.querySelector('.fas.fa-long-arrow-alt-right');
+const Pages=document.querySelectorAll('.page');
+const arrowLink=document.querySelector('a[href="#"]')
+arrowLink.addEventListener('click',(event)=>{
+    event.preventDefault();
+    
+    Pages.forEach((p)=>{
+        
+        p.style.display='flex';
+    });
 });
+// const Incre = document.querySelector('.fas.fa-long-arrow-alt-right');
+// const Pages = document.querySelectorAll('.page');
+
+// // Select the anchor containing the arrow icon to prevent default behavior
+// const arrowLink = document.querySelector('a[href="#"]');
+
+// arrowLink.addEventListener('click', (event) => {
+//     event.preventDefault(); // Prevents the page from jumping to the top
+//     alert('hello');
+//     Pages.forEach((p) => {
+//         p.style.display = 'flex';
+//     });
+// });

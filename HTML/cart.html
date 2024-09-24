@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <head>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <title>Ecommerce Website</title>
     </head>
@@ -35,8 +37,8 @@
             <p>LEAVE A MESSAGE,We love to hear from you:</p>
             
         </section>
-        <section class="cart same-padd">
-            <table class="cart-table">
+        <section class="cart same-padd" data-aos="fade-up" data-aos-duration="1000">
+            <table class="cart-table" data-aos="fade-up" data-aos-duration="1000">
                 <thead>
                     <tr>
                         <td>REMOVE</td>
@@ -78,7 +80,7 @@
                 </tbody>
             </table>
         </section>
-        <section class="cart-add same-padd">
+        <section class="cart-add same-padd" data-aos="fade-up" data-aos-duration="1000">
             <div id="coupon">
                 <h3>Apply Coupon</h3>
                 <div>
@@ -106,7 +108,7 @@
             </div>
         </section>
         
-        <footer class="bottom same-padd">
+        <footer class="bottom same-padd" data-aos="fade-up" data-aos-duration="1000">
         <div class="main-col">
             <div class="col1">
              <div class="Logo"><img src="/Assests/img/logo.png" alt=""></div>
@@ -149,7 +151,7 @@
                  <img src="/Assests/img/pay/play.jpg" alt="">
               </div>
               <p>Secured Payment Gateways</p>
-              <img src="Assests/img/pay/pay.png" alt="">
+              <img src="/Assests/img/pay/pay.png" alt="">
             </div>
         </div>
         <div class="copyright">
@@ -158,6 +160,9 @@
 
         </footer>
         <script src="/javaScript/script.js"></script>
+        <script>
+            AOS.init();
+        </script>
     
     
 </body>

@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <head>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    </head>
+    
     
 
     <title>Ecommerce Website</title>
@@ -43,7 +45,7 @@
         <p>Lorem ipsum dolor ist omet,consectetur</p>
         
     </section>
-    <section class="about-head same-padd">
+    <section class="about-head same-padd"  data-aos="fade-up" data-aos-duration="1000">
         <div class="about-img">
             <img src="/Assests/img/about/a6.jpg" alt="">
         </div>
@@ -56,14 +58,14 @@
             <marquee bgcolor="#ccc" loop="-1" scrollamount="5" width="100%" style="font-size: 1.1srem;">Create stunning images withe as much or as little control as you like thanks to a choice of Basic and Creative modes</marquee>
         </div>
     </section>
-    <section class="about-app same-padd">
+    <section class="about-app same-padd"  data-aos="fade-up" data-aos-duration="1000">
         <h1>Download Our <a href="#">App</a></h1>
         <div class="video">
             <video autoplay muted loop src="/Assests/img/about/1.mp4"></video>
         </div>
 
     </section>
-    <section class="feature same-padd">
+    <section class="feature same-padd"  data-aos="fade-up" data-aos-duration="1000">
         <div class="fe-box1">
             <img src="/Assests/img/features/f1.png" alt="">
             <h6>Free Shipping</h6>
@@ -91,7 +93,7 @@
             
         
     </section>
-    <section class="newsletter same-padd">
+    <section class="newsletter same-padd"  data-aos="fade-down" data-aos-duration="1000">
         <div class="newstext">
             <h4>Sign Up For Newsletters</h4>
             <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
@@ -107,7 +109,7 @@
     
   
     
-    <footer class="bottom same-padd">
+    <footer class="bottom same-padd"  data-aos="fade-left" data-aos-duration="1000">
         <div class="main-col">
             <div class="col1">
              <div class="Logo"><img src="/Assests/img/logo.png" alt=""></div>
@@ -150,7 +152,7 @@
                  <img src="/Assests/img/pay/play.jpg" alt="">
               </div>
               <p>Secured Payment Gateways</p>
-              <img src="Assests/img/pay/pay.png" alt="">
+              <img src="/Assests/img/pay/pay.png" alt="">
             </div>
         </div>
         <div class="copyright">
@@ -159,6 +161,12 @@
 
     </footer>
     <script src="/javaScript/script.js"></script>
+    <script>
+        AOS.init({
+            duration:2000,
+            offset:200,
+        });
+    </script>
     
     
 </body>
